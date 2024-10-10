@@ -1,0 +1,42 @@
+ __  __  __
+  / \  | /
+ |   | |/ 
+ |   | |\
+  \_/  | \
+
+
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DESIGNER | designer
+
+Omkar Kumbhar
+Hand crafted design & web development
+
+Design tools:
+Figma
+Photoshop
+Blender
+
+
+github.com/Omkarkumbhar47
+
+_______________________________________________________________________________
+
+TECHNOLOGY | technology
+
+React
+Remix
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | font
+
+Gotham
+IPA Gothic Regular
+Hiragino Kaku Gothic W8

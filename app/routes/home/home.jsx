@@ -56,7 +56,8 @@ export const Home = () => {
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne,projectTwo ,projectThree, details];
+    // const sections = [intro, projectOne,projectTwo ,projectThree, details];
+    const sections = [intro, projectOne, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {

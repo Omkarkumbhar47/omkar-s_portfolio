@@ -1,8 +1,8 @@
 import backgroundSpr from '~/assets/3dbackground.jpg';
-import imageSprLessonBuilderDark from '~/assets/3dModelWhite.png';
-import imageSprLessonBuilderLight from '~/assets/3dmodelBlack.png';
-import imageSprStoryboarderDark from '~/assets/3dShelbyCarwhite.png';
-import imageSprStoryboarderLight from '~/assets/3dShellbyCar.png';
+import imageSprLessonBuilderDark from '~/assets/IphoneImage.png';
+import imageSprLessonBuilderLight from '~/assets/IphoneImage.png';
+import imageSprStoryboarderDark from '~/assets/carImage.png';
+import imageSprStoryboarderLight from '~/assets/carImage.png';
 import { Footer } from '~/components/footer';
 import { Image } from '~/components/image';
 import { Link } from '~/components/link';
@@ -24,12 +24,13 @@ import styles from './smart-sparrow.module.css';
 
 const title = 'Platform to view the 3d Model';
 const description =
-  'I worked as a Software Intern at Noitavonne, independently handling a project under the guidance of a Senior Developer. Together, we revamped the platform, taking it in a bold new direction with a focus on making it the best tool for viewing 3D models.';
+  'I worked as a Software Intern at Noitavonne, where I independently handled a project under the guidance of a Senior Developer. During this experience, I enhanced my skills in frontend development and gained knowledge of React Three Fiber and the Three.js library. Using these technologies, I created this project, taking it in a bold new direction with a focus on building an effective tool for viewing 3D models.';
 const roles = [
   'Front End Development',
-  'UX and UI Design',
+  'Full Stack Development',
   'React Three Fiber',
   'Three Js',
+  'React Js Developer',
 ];
 
 export const meta = () => {
@@ -52,7 +53,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://3d.silocloud.io/"
+          url="https://3d-viewer-seven.vercel.app/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -78,12 +79,7 @@ export const SmartSparrow = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>About Project</ProjectSectionHeading>
               <ProjectSectionText>
-                "A key aspect of the project was to implement functionality that allowed
-                users to hide and unhide parts of the 3D model, improving the overall
-                viewing experience. Additionally, we integrated a feature that enables
-                users to upload 3D models to the cloud, where a page collection displays
-                the uploaded models. This was particularly beneficial for 3D model
-                creators, as it allowed them to focus on specific parts with ease."
+                  "A key aspect of the project was implementing functionality that allowed users to hide and unhide parts of the 3D model, enhancing the overall viewing experience. We also integrated multiple background options to ensure the model could be viewed clearly in different environments. In addition, users can access detailed information about the 3D model, along with extra features designed to improve usability. This was particularly beneficial for 3D model creators, as it enabled them to focus on specific parts with ease."
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -108,10 +104,7 @@ export const SmartSparrow = () => {
               <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
               <ProjectSectionText>
                 "Ultimately, the project was successfully deployed on the server, though
-                it still requires some refinements. Additionally, the{' '}
-                <Link href="https://3d.silocloud.io/">Silo 3D Viewer</Link> should
-                incorporate a marketplace for buying and selling products, as well as key
-                features found in other leading viewers."
+                it still requires some refinements. Additionally, the <Link href="https://3d-viewer-seven.vercel.app/">3D Viewer</Link> should provide a more seamless user experience with improved performance and additional customization options."
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>

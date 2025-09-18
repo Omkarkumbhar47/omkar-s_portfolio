@@ -110,7 +110,7 @@ export const Home = () => {
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: '3d viewer',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -126,9 +126,9 @@ export const Home = () => {
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
         title="Portfolio Website"
-        description="A passionate 3D Artist and Animator specialized in creating stunning 3D models & captivating animations using Blender. Let’s bring your vision to life in 3D!"
+        description="A passionate 3D Artist and Animator specialized in creating stunning 3D models & captivating animations using Blender. Let’s bring his vision to life in 3D!"
         buttonText="View website"
-        buttonLink="https://pravin-s-portfolio.vercel.app/"
+        buttonLink="https://pravinportfolio-five.vercel.app/"
         model={{
           type: 'phone',
           alt: 'App Home ',

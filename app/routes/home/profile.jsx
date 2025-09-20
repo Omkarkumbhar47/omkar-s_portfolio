@@ -21,8 +21,8 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Omkar, currently I live in Kolhapur, Maharashtra, India worked as a Software Intern at{' '}
-      <Link href="https://noitavonne.com/">Noitavonne</Link>. My projects include UX design, UI
+      I’m Omkar, currently I live in Pune, Maharashtra, India working as a React js Developer at{' '}
+      <Link href="https://nextastra.com/">Nextastra Technology Pvt Ltd</Link>. My projects include UX design, UI
       animations, and icon illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences.
        {/* If you’re interested in the tools and software I

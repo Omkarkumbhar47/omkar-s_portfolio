@@ -15,6 +15,7 @@ import { media } from '~/utils/style';
 import katakana from './katakana.svg';
 import styles from './profile.module.css';
 
+
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>

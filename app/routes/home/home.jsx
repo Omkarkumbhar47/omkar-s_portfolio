@@ -104,7 +104,7 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Silo 3d Viewer"
+        title="3d Viewer"
         description="Platform to view the 3d Model"
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"

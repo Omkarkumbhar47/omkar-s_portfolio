@@ -1,22 +1,20 @@
-{
+  {
   "name": "portfolio",
-  "homepage": "https://hamishw.com",
+  "homepage": "https://nextdora.site",
   "description": "Portfolio site for Omkar Kumbhar",
-  "repository": "https://github.com/HamishMW/portfolio.git",
+  "repository": "https://github.com/Omkarkumbhar47/omkar-s_portfolio",
   "author": "Omkar Kumbhar",
   "sideEffects": false,
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
     "dev": "node ./scripts/dev.cjs && remix vite:dev",
-    "start": "node ./build/server/index.js",
     "deploy": "npm run build",
     "dev:storybook": "storybook dev -p 6006",
     "build:storybook": "storybook build",
     "deploy:storybook": "wrangler pages deploy ./storybook-static --project-name portfolio-storybook --branch main"
   },
   "dependencies": {
-    "@aws-sdk/client-ses": "^3.515.0",
     "@formspree/react": "^2.5.1",
     "@mdx-js/react": "^3.0.1",
     "@remix-run/cloudflare": "^2.7.1",
@@ -53,7 +51,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "node-fetch": "^3.3.2",
     "postcss": "^8.4.33",
     "postcss-custom-media": "^10.0.2",
     "prop-types": "^15.8.1",
